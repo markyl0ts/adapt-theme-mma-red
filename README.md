@@ -6,4 +6,4 @@ It provides specific values to styles, including colors, padding, margins, and a
 
 ## Installation
 
-As Adapt's *[derived theme](https://github.com/adaptlearning/adapt_framework/wiki/Core-Plug-ins-in-the-Adapt-Learning-Framework#theme),* **Evolantis - MMA Red Theme** is included with the [installation of the Adapt framework](https://github.com/adaptlearning/adapt_framework/wiki/Manual-installation-of-the-Adapt-framework#installation) and the [installation of the Adapt authoring tool](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-Adapt-Origin).
+# adapt install adapt-theme-mma-red
