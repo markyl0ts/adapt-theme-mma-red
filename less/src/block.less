@@ -1,0 +1,59 @@
+// Block styling
+// =============
+
+.block {
+    //background-color: @background-color;
+    width: 1440px;
+    margin: 0 auto;
+
+    .block-inner {
+        max-width: @device-width-large;
+        margin: auto;
+        padding: @block-padding-top 0 @block-padding-bottom;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 25px;
+        background-color: @white;
+        border-radius: 6px;
+        // reduce padding as screen width decreases
+        @media all and (max-width: (@device-width-large + 20px)) {
+            padding: (@block-padding-top / 2) 20px (@block-padding-bottom / 2);
+        }
+
+        @media all and (max-width: (@device-width-small + 20px)) {
+            padding: (@block-padding-top / 3) 10px (@block-padding-bottom / 3);
+        }
+    }
+
+    .block-title {
+        ///margin-bottom: @block-title-margin-bottom;
+        color: @title-color;
+        text-align: left;
+        font-family: @font-family-header;
+        padding: 15px 20px 0 20px;
+
+        .dir-rtl & {
+            text-align: right;
+        }
+
+        .block-title-inner {
+            font-weight: bold;
+        }
+    }
+
+    .block-body {
+        margin-bottom: @block-body-margin-bottom;
+    }
+
+    .block-instruction {
+        margin-bottom: @block-instruction-margin-bottom;
+        .instruction-text;
+    }
+}
+
+
+@media all and (max-width: 1439px) {
+    .block {
+         width: auto;
+    }
+}

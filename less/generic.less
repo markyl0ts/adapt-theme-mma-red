@@ -1,0 +1,99 @@
+// THIS IS WHERE WE CAN DECLARE ANY OTHER VARIABLES (ie. device-width, border-width etc.)
+
+// Device widths
+// =============
+
+@device-width-small: 520px;
+@device-width-medium: 900px;
+@device-width-large: 1024px;
+
+// Max-widths
+// ==========
+
+@max-width: 1400px;
+@ie8-max-width: 1024px;
+
+// Borders and Outlines
+// ====================
+
+@focus-outline: 3px solid orange; //focus outline is displayed when accessibility is enabled
+
+@button-border: 0px solid @button-border-color;
+
+@item-border: 3px solid @item-border-color;
+
+
+
+//backgrounds
+.background-red {
+    background-color:@mma-red!important;
+}
+
+.background-black {
+    background-color:@mma-black!important;
+}
+
+.background-grey {
+    background-color:@dark-grey!important;
+}
+
+.background-mid-grey {
+    background-color:@mid-grey!important;
+}
+
+.padding-inner-all-100 {
+    .block-inner {
+        padding: 100px 0 !important;
+    }
+}
+
+//block component
+.block-inner-bg-trans {
+    .block-inner {
+        background-color: transparent !important;
+    }
+}
+
+ul{
+    list-style: disc outside none!important;
+}
+
+//custom class
+.two-70-30 {
+    .accordion-item-text {
+        width: 68%!important;
+        padding-right:2%;
+    }
+
+    .accordion-item-graphic {
+        width: 30%!important;
+    }
+
+    .hotgraphic-item-content {
+         width: 70%!important;
+    }
+    .hotgraphic-item-graphic {
+        width: 30%!important;
+    }
+}
+
+@media (max-width:768px) {
+  .two-70-30 {
+        .accordion-item-text {
+            width: 100%!important;
+        }
+    }
+}
+
+
+@media (max-width:480px) {
+  .two-70-30 {
+        .accordion-item-text {
+            width: 100%!important;
+        }
+
+        .accordion-item-graphic {
+            width: 100%!important;
+        }
+    }
+}

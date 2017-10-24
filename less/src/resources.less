@@ -1,0 +1,27 @@
+.resources {
+    .resources-filter button {
+        color: @drawer-item-text-color;
+        border-bottom: 2px solid  @mma-dark-gray;
+        .transition-all-colors;
+        padding: 0px; 
+        font-size: @body-text-font-size;
+        text-align: center;
+
+        span {
+            border: none;
+            padding: 15px 0px;
+        }
+
+        &.selected {
+            color: @drawer-item-text-color-selected;
+            background-color:  @mma-red;
+            border-bottom: 2px solid  @mma-red;
+        }
+
+        .no-touch &:hover {
+            color:  @drawer-item-text-color-hover;
+            background-color:  @mma-dark-gray;
+            border-bottom: 2px solid  @mma-dark-gray;
+        }
+    }
+}
