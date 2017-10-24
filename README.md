@@ -6,4 +6,4 @@ It provides specific values to styles, including colors, padding, margins, and a
 
 ## Installation
 
-# adapt install adapt-theme-mma-red
+### adapt install adapt-theme-mma-red
