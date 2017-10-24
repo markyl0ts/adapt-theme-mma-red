@@ -1,0 +1,23 @@
+{
+  "name": "adapt-theme-mma-red",
+  "version": "0.0.1",
+  "framework": "^2.1.0",
+  "homepage": "https://github.com/adapt-theme-mma-red",
+  "issues": "",
+  "displayName": "Evolantis - MMA Red Theme",
+  "theme": "vanilla",
+  "description": "E-Learning theme for MMA color RED made and tailored by Evo boys",
+  "main": "js/adapt-theme-mma-red.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-theme"
+  ],
+  "license": "GPLv3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
